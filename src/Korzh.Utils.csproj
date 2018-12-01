@@ -1,7 +1,26 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>Korzh.Utils</RootNamespace>
+    <Version>1.0.0</Version>
+    <AssemblyVersion>1.0.0.1</AssemblyVersion>
+    <FileVersion>1.0.0.1</FileVersion>
+    <Title>Korzh.Utils</Title>
+    <Description>Some .NET Core utilities: loading the resources embedвed to your project, string extensions and other useful stuff. </Description>
+    <Authors>Sergiy Korzh</Authors>
+    <Copyright>Copyright 2018 (c) Sergiy Korzh. All rights reserved.</Copyright>
+    <RepositoryUrl>https://github.com/kedonec/korzh-utils</RepositoryUrl>
+
+    <PackageVersion>1.0.0</PackageVersion>
+    <PackageId>Korzh.Utils</PackageId>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageReleaseNotes></PackageReleaseNotes>
+    <PackageOutputPath>./dist</PackageOutputPath>
+    <PackageTags>.net core utils resource loading</PackageTags>
+    <PackageProjectUrl>https://github.com/kedonec/korzh-utils</PackageProjectUrl>
+    <PackageIconUrl></PackageIconUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
 
 </Project>
