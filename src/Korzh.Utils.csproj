@@ -7,7 +7,7 @@
     <AssemblyVersion>1.0.0.1</AssemblyVersion>
     <FileVersion>1.0.0.1</FileVersion>
     <Title>Korzh.Utils</Title>
-    <Description>Some .NET Core utilities: loading the resources embedвed to your project, string extensions and other useful stuff. </Description>
+    <Description>Some .NET Core utilities: loading the resources embedded to your project, string extensions and other useful stuff. </Description>
     <Authors>Sergiy Korzh</Authors>
     <Copyright>Copyright 2018 (c) Sergiy Korzh. All rights reserved.</Copyright>
     <RepositoryUrl>https://github.com/kedonec/korzh-utils</RepositoryUrl>
