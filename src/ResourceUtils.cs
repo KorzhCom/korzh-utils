@@ -12,7 +12,7 @@ namespace Korzh.Utils
     public static class ResourceUtils
     {
         public static Stream GetResourceStream(this Type type, string resourceFolder, string resourceFileName) {
-            var assembly = typeof(ResourceUtils).GetTypeInfo().Assembly;
+            var assembly = type.GetTypeInfo().Assembly;
             return assembly.GetResourceStream(resourceFolder, resourceFileName);
         }
 
@@ -29,7 +29,7 @@ namespace Korzh.Utils
                 return null;
         }
         public static void CreateFileByResource(this Type type, string folder, string fileName) {
-            var assembly = typeof(ResourceUtils).GetTypeInfo().Assembly;
+            var assembly = type.GetTypeInfo().Assembly;
             assembly.CreateFileByResource(folder, fileName);
         }
 
@@ -48,7 +48,7 @@ namespace Korzh.Utils
         }
 
         public static string GetResourceAsString(this Type type, string folder, string fileName) {
-            var assembly = typeof(ResourceUtils).GetTypeInfo().Assembly;
+            var assembly = type.GetTypeInfo().Assembly;
             return assembly.GetResourceAsString(folder, fileName);
         }
 
